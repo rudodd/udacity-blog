@@ -34,7 +34,7 @@ header .menu {
 
 .menu ul li {
   display: inline-block;
-  margin: 0 0 0 12px;
+  margin: 0 0 0 16px;
 }
 
 .menu a:not(.button) {
