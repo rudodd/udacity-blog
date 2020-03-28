@@ -8,22 +8,31 @@
 @import 'css/post.css';
 
 /* universal layout styles */
+html,
 body {
   margin: 0;
+  height: 100%;
 }
 
 .site-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 150px auto auto;
-  margin: auto;
+  grid-template-rows: 100px 1fr auto;
+  justify-items: center;
+  height: 100%;
 }
 
-.wrap {
+.flex-wrap {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-self: center;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 25px;
   width: 90%;
   max-width: 1200px;
 }

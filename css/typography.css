@@ -13,11 +13,15 @@ h4 {
   font-weight: 800;
 }
 
+.screen-reader-only {
+  display: none;
+}
+
 .button {
-  display: block;
+  display: inline-block;
   background:  #1B75BC;
   border-radius: 3px;
-  padding: 7px 10px;
+  padding: 10px 15px;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 0.75rem;
