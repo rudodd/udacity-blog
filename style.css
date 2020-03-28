@@ -1,0 +1,29 @@
+/* import fonts and css peices */
+@import 'https://fonts.googleapis.https://fonts.googleapis.com/css?family=Open+Sans:400,400i,500,500i,600,600i,700,700i|Raleway:800,800i,900,900i&display=swap/css?family=Open+Sans:400,400i,700,700i&display=swap';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+@import 'css/typography.css';
+@import 'css/header.css';
+@import 'css/footer.css';
+@import 'css/index.css';
+@import 'css/post.css';
+
+/* universal layout styles */
+body {
+  margin: 0;
+}
+
+.site-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px auto auto;
+  margin: auto;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-self: center;
+  width: 90%;
+  max-width: 1200px;
+}

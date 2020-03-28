@@ -1,0 +1,42 @@
+/* universal typography styles */
+html,
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+.button {
+  display: block;
+  background:  #1B75BC;
+  border-radius: 3px;
+  padding: 7px 10px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.025);
+}
+
+.button:hover {
+  box-shadow: 0 0 4px 4px rgba(0,0,0,0.05);
+  transition: ease all 0.25s;
+}
+
+.button.secondary {
+  background: #2B3990;
+}
+
+.button i {
+  font-size: 0.65rem;
+}
