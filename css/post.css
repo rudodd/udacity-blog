@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: center;
 }
 
@@ -42,6 +41,25 @@
   margin: 25px 0 25px 25px;
   padding: 25px;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 865px) {
+  #post-main-content .flex-wrap {
+    flex-direction: column;
+  }
+
+  .post-content {
+    width: 100%;
+  }
+
+  .post-content .featured-image {
+    height: 300px;
+  }
+
+  .post-sidebar {
+    width: calc(100% - 50px);
+    margin: 25px 0;
+  }
 }
 
 .sidebar-section {

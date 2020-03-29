@@ -22,6 +22,12 @@ body {
   height: 100%;
 }
 
+@media only screen and (max-width: 865px) {
+  .site-container {
+    grid-template-rows: auto 1fr auto;
+  }
+}
+
 .flex-wrap {
   display: flex;
   flex-direction: row;
@@ -36,4 +42,10 @@ body {
   grid-gap: 25px;
   width: 90%;
   max-width: 1200px;
+}
+
+@media only screen and (max-width: 865px) {
+  .grid-wrap {
+    grid-template-columns: 1fr;
+  }
 }

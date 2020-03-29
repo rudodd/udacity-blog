@@ -42,3 +42,25 @@ header .menu {
  text-decoration: none;
  font-weight: 600;
 }
+
+@media only screen and (max-width: 865px) {
+  header .flex-wrap,
+  header .logo,
+  header .menu {
+    display: block;
+    text-align: center;
+  }
+
+  header .logo,
+  header .menu {
+    margin: 15px 0;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
+
+  header .menu .button {
+    display: none;
+  }
+}
